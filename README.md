@@ -111,3 +111,33 @@ To Execute your CrewAI project :
 ```python
  crewai run    # For Run your project.
 ```
+
+
+------------
+Dono commands ka **clear** farq ye hai:  
+
+### **1. Simple Project (`crew`)**
+```sh
+crewai create crew <project-name>
+```
+Ye command ek **basic CrewAI project** banati hai, jo manually configure karne ke liye zyada flexible hota hai. Is project mein sirf **basic files aur setup** hota hai, jisme tum agents aur workflows **apne hisaab se manually define** karte ho.  
+
+**Use case:** Agar tum ek **custom CrewAI project** banana chahte ho jisme tum **apne agents, tasks aur workflows khud setup** karo, to ye best hai.  
+
+---
+
+### **2. Flow-Based Project (`flow`)**
+```sh
+crewai create flow <project-name>
+```
+Ye command ek **pre-structured workflow-based CrewAI project** banati hai. Isme kuch **pre-defined agents aur workflows** hote hain, jinka structure pehle se bana hota hai. Tumhe bas chhoti chhoti cheezein customize karni parti hain.  
+
+**Use case:** Agar tum ek **automated flow chahte ho** jisme pehle se bana banaya system ho, aur sirf chhoti modifications karni ho, to ye best hai.  
+
+---
+
+### **Asaan lafzon mein farq:**  
+- **"crew" wala project blank aur basic hota hai**, jisme tum apni marzi se sab kuch define karte ho.  
+- **"flow" wala project ek pre-made setup hota hai**, jo ek structured system ke sath aata hai.  
+
+Agar tum **scratch se build** karna chahte ho to `crew` use karo. Agar tum **pehle se bana banaaya flow chahte ho** to `flow` use karo.
